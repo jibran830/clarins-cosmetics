@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.header {
+    background-color: hsl(330, 100%, 84%);
+    color: #5e001f;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+
+}
+
+.faq .question {
+    font-size: 1.2rem;
+    color: #9b0440;
+    margin: 0;
+}
+
+.faq .answer {
+    font-size: 1rem;
+    color: #000;
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .faq-container {
+        padding: 10px;
+    }
+    
+    .faq .question {
+        font-size: 1rem;
+    }
+
+    .faq .answer {
+        font-size: 0.9rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Frequently Asked Questions</h1>
+    </header>
+
+    <main class="faq-container">
+        <div class="faq">
+            <h2 class="question">Are your products cruelty-free?</h2>
+            <p class="answer">Yes, all our products are 100% cruelty-free and not tested on animals.</p>
+        </div>
+        <div class="faq">
+            <h2 class="question">How long does shipping take?</h2>
+            <p class="answer">Standard shipping typically takes 3–7 business days, depending on your location. Expedited options are also available at checkout.</p>
+        </div>
+        <div class="faq">
+            <h2 class="question">Can I modify or cancel my order after placing it?</h2>
+            <p class="answer">You can modify or cancel your order within 1 hour of purchase. After that, the order is processed and cannot be changed</p>
+        </div>
+        <div class="faq">
+            <h2 class="question">What’s the shelf life of your products?</h2>
+            <p class="answer">Most products have a shelf life of 12–24 months. Check the packaging for specific expiration dates.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Clarins Cosmetics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
